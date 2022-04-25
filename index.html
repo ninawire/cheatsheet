@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Sheet</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="material/icons8-css3-50.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="material/icons8-css3-100.png" alt="CSS3">
+            <h1>CSS Selectors</h1>
+        </div>
+    </header>
+    <nav>
+        <a href="index.html">Definition</a>
+        <a href="examples.html">Examples</a>
+        <a href="exercises.html">Exercises</a>
+    </nav>
+    <main>
+        <section id="definition">
+            <p>A CSS selector selects the HTML element(s) you want to style.</p>
+            <h2>CSS Selectors</h2>
+            <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+            <p><strong>We can divide CSS selectors into seven categories:</strong></p>
+            <ul>
+                <li><a href="#simple-selectors">Simple selectors</a> (select elements based on name, id, class)</li>
+                <li><a href="#universal-selector">Universal selector</a> (selects all HTML elements on the page)</li>
+                <li><a href="#grouping-selector">Grouping selectors</a> (selects all the HTML elements with the same style definitions)</li>
+                <li><a href="#combinator-selector">Combinator selectors</a> (select elements based on a specific relationship between them)</li>
+                <li><a href="#pseudo-class-selector">Pseudo-class selectors</a> (select elements based on a certain state)</li>
+                <li><a href="#pseudo-element-selector">Pseudo-elements selectors</a> (select and style a part of an element)</li>
+                <li><a href="#attribute-selector">Attribute selectors</a> (select elements based on an attribute or attribute value)</li>
+            </ul>
+            <picture>
+                <source media="(max-width: 930px)" srcset="material/pexels-lukas-574070small.jpg">
+                <img src="material/pexels-lukas-574070.jpg" alt="computer with notepad"></picture>
+            <p><strong>This page will explain the most basic CSS selectors.</strong></p>
+        </section>
+        <section id="simple-selectors" class="selectors">
+            <h2>Simple Selectors</h2>
+            <p>Select elements based on name, id, class</p>
+            <p>The <strong>name</strong> selector selects HTML elements based on the element name.</p>
+            <p>The <strong>id</strong> selector uses the id attribute of an HTML element to select a specific element. The id of an element is unique within a page, so the id selector is used to select one unique element! To select an element with a specific id, write a hash (#) character, followed by the id of the element.</p>
+            <p>The <strong>class</strong> selector selects HTML elements with a specific class attribute. To select elements with a specific class, write a period (.) character, followed by the class name. You can also specify that only specific HTML elements should be affected by a class. HTML elements can also refer to more than one class.</p>
+        </section>
+        <section id="universal-selector" class="selectors">
+            <h2>Universal Selector</h2>
+            <p>The <strong>universal</strong> selector (*) selects all HTML elements on the page.</p>
+        </section>
+        <section id="grouping-selector" class="selectors">
+            <h2>Grouping Selector</h2>
+            <p>The <strong>grouping</strong> selector selects all the HTML elements with the same style definitions. Elements that have the same style definitions can be groupped to minimize the code. To group selectors, separate each selector with a comma (h1, h2, p).</p>
+        </section>
+        <section id="combinator-selector" class="selectors">
+            <h2>Combinator Selector</h2>
+            <p>A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a <strong>combinator</strong>.There are four different combinators in CSS:</p>
+            <ul>
+                <li>descendant selector (space)</li>
+                <li>child selector (>)</li>
+                <li>adjacent sibling selector (+)</li>
+                <li>general sibling selector (~)</li>
+            </ul>
+            <br>
+        </section>
+        <section id="pseudo-class-selector" class="selectors">
+            <h2>Pseudo-class Selector</h2>
+            <p> A <strong>pseudo-class</strong> is used to define a special state of an element. For example, it can be used to style an element when a user mouses over it, style visited and unvisited links differently, style an element when it gets focus...etc</p>
+        </section>
+        <section id="pseudo-element-selector" class="selectors">
+            <h2>Pseudo-element Selector</h2>
+            <p>A CSS <strong>pseudo-element</strong> is used to style specified parts of an element. For example, it can be used to style the first letter, or line, of an element, insert content before, or after, the content of an element.</p>
+        </section>
+        <section id="attribute-selector" class="selectors">
+            <h2>Attribute Selector</h2>
+            <p>The <strong>[attribute]</strong> selector is used to select elements with a specified attribute.</p>
+        </section>
+    </main>
+    <footer>
+        <h3>Created by Thatiana Simão</h3>
+        <a href="https://www.facebook.com/thaty.wire/" target="_blank"><img src="material/icons8-facebook-30.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/thaty_simao/" target="_blank"><img src="material/icons8-instagram-30.png" alt=""></a>
+        <a href="https://github.com/ninawire" target="_blank"><img src="material/icons8-github-30.png" alt="github"></a>
+        <a href="https://www.linkedin.com/in/thatiana-sim%C3%A3o-863b98230/" target="_blank"><img src="material/icons8-linkedin-30.png" alt=""></a>
+        <p>References: <a href="https://www.w3schools.com/" target="_blank">W3schools</a></p>
+    </footer>
+</body>
+</html>
